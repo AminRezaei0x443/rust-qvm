@@ -1,0 +1,10 @@
+[package]
+name = "rust-qvm"
+version = "0.1.0"
+authors = ["Amin Rezaei <AminRezaei0x443@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+quick-js = { git = "https://github.com/AminRezaei0x443/quickjs-rs" }
+tokio = { version = "1", features = ["rt", "rt-multi-thread"] }
+reqwest = { version = "0.11", features = ["json"] }
